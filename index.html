@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ada Pokemon ada dong</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h4 id="result" class="header">Siapa Pokemon itu?</h4>
+      <img id="pokemonImage" alt="Pokemon Image" />
+      <!-- <img
+        id="pokemonImage"
+        alt="Pokemon Image"
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/45.svg"
+      /> -->
+      <div id="options" class="options-container">
+        <!-- <button>dodrio</button>
+        <button>voltorb</button>
+        <button>mr-mime</button>
+        <button>nidorino</button> -->
+      </div>
+      <h4 id="points">
+        Points: <span id="pointsValue">0</span>/<span id="totalCount">0</span>
+      </h4>
+    </div>
+    <div id="loadingContainer" class="loading-container">
+      <img id="loadingIcon" src="loading_icon.gif" alt="loading..." />
+    </div>
+    <!-- Audio element for background music -->
+    <audio id="backgroundMusic" loop>
+      <source src="youtube_4BTnfXEu2rY_audio.mp3" type="audio/mpeg"> 
+      <!-- Jika browser tidak mendukung format audio MP3, maka akan ditampilkan pesan ini -->
+      Your browser does not support the audio tag.
+    </audio>
+    <!-- Footer yang telah diperbaiki untuk berada di bawah konten -->
+    <footer class="footer-bottom">
+      <p>Jangan Lupa Istirahat</p>
+    </footer>
+
+  </body>
+</html>
